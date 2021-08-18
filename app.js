@@ -79,7 +79,7 @@ function closePopup() {
 }
 
 gallery.addEventListener('click', event => {
-  if (!event.target.classList.contains('.gallery__image')) return
+  if (!event.target.classList.contains('gallery__image')) return
   event.preventDefault()
   lightboxImage.src = null
   lightboxImage.alt = null
